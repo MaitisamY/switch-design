@@ -1,0 +1,65 @@
+body {
+    background-color: #FFF2D8;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.btn {
+    margin: 10px 20px 20px 10px;
+    align-self: center;
+    justify-self: center;
+    background-color: #113946;
+    border: none;
+    outline: none;
+    border-radius: 110px 110px 120px 120px;
+    padding: 40px 30px;
+    font-size: 25px;
+    font-family: 'Young Serif', serif;
+    color: #EAD7BB;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(17, 57, 70);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(17,57,70,1);
+    box-shadow: 0px 0px 5px 0px rgba(17,57,70,1);
+    background: rgb(59,99,112);
+    background: linear-gradient(90deg, rgba(59,99,112,1) 0%, rgba(9,99,129,1) 0%, rgba(17,57,70,1) 90%);
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    -webkit-box-shadow: 0px 0px 5px 4px rgba(17,57,70,0.57);
+    -moz-box-shadow: 0px 0px 5px 4px rgba(17,57,70,0.57);
+    box-shadow: 0px 0px 5px 4px rgba(17,57,70,0.57);
+}
+
+.switchOn {
+    color: #11a711;
+}
+
+.switchOff {
+    color: #747070;
+}
+
+.switchError {
+    color: #db2b2b;
+}
+
+em {
+    font-style: normal;
+    font-size: 35px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
