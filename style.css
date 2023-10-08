@@ -64,6 +64,7 @@ em {
 
 @media (max-widh: 780px) {
     .content {
-        display: grid;
+        display: flex;
+        flex-direction: column;
     }
 }
