@@ -62,4 +62,8 @@ em {
     visibility: hidden;
 }
 
-
+@media (max-widh: 780px) {
+    .content {
+        display: grid;
+    }
+}
