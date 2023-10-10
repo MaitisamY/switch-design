@@ -26,19 +26,11 @@ body {
     color: #EAD7BB;
     text-align: center;
     cursor: pointer;
-    -webkit-box-shadow: 0px 0px 5px 0px rgb(17, 57, 70);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(17,57,70,1);
-    box-shadow: 0px 0px 5px 0px rgba(17,57,70,1);
-    background: rgb(59,99,112);
-    background: linear-gradient(90deg, rgba(59,99,112,1) 0%, rgba(9,99,129,1) 0%, rgba(17,57,70,1) 90%);
-}
-
-.btn:hover,
-.btn:focus,
-.btn:active {
     -webkit-box-shadow: 0px 0px 5px 4px rgba(17,57,70,0.57);
     -moz-box-shadow: 0px 0px 5px 4px rgba(17,57,70,0.57);
     box-shadow: 0px 0px 5px 4px rgba(17,57,70,0.57);
+    background: rgb(59,99,112);
+    background: linear-gradient(90deg, rgba(59,99,112,1) 0%, rgba(9,99,129,1) 0%, rgba(17,57,70,1) 90%);
 }
 
 .switchOn {
@@ -55,16 +47,5 @@ body {
 
 em {
     font-style: normal;
-    font-size: 35px;
-}
-
-.hidden {
-    visibility: hidden;
-}
-
-@media (max-widh: 780px) {
-    .content {
-        display: flex;
-        flex-direction: column;
-    }
+    font-size: 30px;
 }
